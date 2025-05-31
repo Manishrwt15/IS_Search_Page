@@ -1,0 +1,8 @@
+@import "tailwindcss";
+/* in your global CSS file */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+}
